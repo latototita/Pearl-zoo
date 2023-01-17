@@ -140,7 +140,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 #  Add configuration for static files storage using whitenoise
-
+X_FRAME_OPTIONS = 'ALLOW-FROM https://adsmoneyugx.herokuapp.com'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 #STMP configuration
 django_heroku.settings(locals())
